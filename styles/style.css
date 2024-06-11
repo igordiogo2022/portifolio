@@ -95,6 +95,10 @@ body::before{
    display: flex;
    flex-direction: row;
    gap: 20px;
+   }
+.principal__conteudo--paragrafo{
+   font-family: var(--fonteSecundaria);
+   font-size: 24px;
 }
 .principal__imagem{
    width: 50%;
@@ -118,7 +122,7 @@ body::before{
    justify-content: center;
    gap: 16px;
    width: 50%;
-   border: 2px solid var(--corSecundaria);
+   border: 3px solid var(--corSecundaria);
    border-radius: 8px;
    text-align: center;
    text-decoration: none;
